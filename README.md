@@ -5,7 +5,7 @@
 **You need to clone the latest version of the project**
 
 ```bash
-git clone .git
+git clone https://github.com/stepanenko-ya/NGSBot.git
 ```
 
 *  **  **
