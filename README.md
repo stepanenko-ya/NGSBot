@@ -24,25 +24,20 @@ source venv/bin/activate
 *  **  **
 
 ### Step #3:
-
-**Now you need to go to the "dev" branch**
-
-```bash
-cd bot
-```
+**You need open project NGSBot**
 
 ```bash
-git checkout dev
+cd NGSBot
 ```
+
+### Step #4:
+**You should get a branch master**
 
 ```bash
 git branch
 ```
 
-```bash
-git pull
-```
-### Step #4:
+### Step #5:
 
 **Now you need to install all the libraries and dependencies**
 
