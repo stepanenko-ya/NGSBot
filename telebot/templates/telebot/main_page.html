@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat with the manager</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+    <div class="header">
+        <img class="header__logo-company" src="{% static 'image/logo.svg' %}">
+        <div class="header__tagline">
+            Усі види медичного<br>
+            страхування
+        </div>
+    </div>
+
+    <div class="wrapper__current-message-container">
+        <div id="current_message_container" class="current_message_container"
+             data-user_id="{{ user_id }}">
+        </div>
+    </div>
+
+    <div class="new_message_container">
+        <input id="new_message_field" class="new_message_field" type="text" placeholder="Введите сообщение: ">
+        <button type="submit" class="new_message_button" onclick="buttonSendMessage()">Отправить</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+
+</body>
+</html>

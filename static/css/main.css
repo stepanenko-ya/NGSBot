@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+}
+
+.header__logo-company {
+    max-width: 108px;
+    margin: 47px 0px 49px 88px;
+}
+
+.header__tagline {
+    margin: 50px 0px 40px 44px;
+}
+
+.wrapper__current-message-container {
+    text-align: center;
+    background: #324158;
+    min-height: 300px;
+}
+
+.current_message_container {
+    text-align: left;
+    width: 800px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.message_row {
+    background: #4fe3c2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.new_message_container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.new_message_field {
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.new_message_button {
+    padding: 10px 20px;
+}
+
+
