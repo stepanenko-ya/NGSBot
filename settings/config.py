@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'b-*(qs$cy*x$3262bxlrar$v$12ih90n_x*awm9=_h4=)f*sg%'
 DEBUG = True
 ALLOWED_HOSTS = []
-BOT_TOKEN = "1426356784:AAF4pFpr2MCxULKUaO33m9ZHtD9TJn8RTQo"
+BOT_TOKEN = "1498189570:AAFAn4DWlUqAKZe9xW0Q7DW3SVN2aXp_jo8"
 
 
 INSTALLED_APPS = [
